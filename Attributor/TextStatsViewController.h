@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface TextStatsViewController : UIViewController
-
+@property (nonatomic, strong) NSAttributedString *textToAnalyze;
 @end
